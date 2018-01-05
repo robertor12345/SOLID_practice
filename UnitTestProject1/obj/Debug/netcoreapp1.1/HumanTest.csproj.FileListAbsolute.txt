@@ -1,0 +1,14 @@
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.deps.json
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.runtimeconfig.json
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.runtimeconfig.dev.json
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.csprojResolveAssemblyReference.cache
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.AssemblyInfo.cs
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.pdb
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\animals.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\animals.pdb
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.pdb

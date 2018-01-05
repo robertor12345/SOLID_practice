@@ -1,0 +1,9 @@
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.deps.json
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.runtimeconfig.json
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.runtimeconfig.dev.json
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.csprojResolveAssemblyReference.cache
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.AssemblyInfo.cs
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.pdb
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.dll
+c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.pdb
