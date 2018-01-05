@@ -1,0 +1,14 @@
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\PopulationTests.deps.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\PopulationTests.runtimeconfig.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\PopulationTests.runtimeconfig.dev.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\PopulationTests.csprojResolveAssemblyReference.cache
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\PopulationTests.AssemblyInfo.cs
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\PopulationTests.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\PopulationTests.pdb
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Animals.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Animals.pdb
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\PopulationTests.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\PopulationTests.pdb

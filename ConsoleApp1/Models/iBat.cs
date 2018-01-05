@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Animals.Models
 {
-    interface iBats: iMammals
+    interface iBat: iMammals
     {
         bool Fly { get; set; }
     }

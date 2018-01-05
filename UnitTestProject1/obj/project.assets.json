@@ -8595,9 +8595,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\HumanTest.csproj",
-      "projectName": "HumanTest",
-      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\HumanTest.csproj",
+      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\PopulationTests.csproj",
+      "projectName": "PopulationTests",
+      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\PopulationTests.csproj",
       "outputPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [

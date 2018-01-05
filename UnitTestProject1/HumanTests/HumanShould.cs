@@ -40,7 +40,6 @@ namespace HumanShould
         [TestMethod]
         public void Human_should_breathe()
         {
-
             var result = Occupant.Breathe;
             var expected = "brrrrrrr";
             NUnit.Framework.Assert.AreEqual(expected, result);
@@ -65,8 +64,8 @@ namespace HumanShould
 
         }
         
-        [TestCase("starving")]
-        public void Human_should_be_able_to_decide_if_hungry(String hungry)
+        [TestMethod]
+        public void Human_should_be_able_to_decide_if_hungry()
         {
             var result = Occupant.Hungry;
             var expected = false;
@@ -74,6 +73,7 @@ namespace HumanShould
 
         }
 
-        
+
+
     }
 }

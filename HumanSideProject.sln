@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animals", "ConsoleApp1\Animals.csproj", "{CBE90A8E-77CF-4220-BD88-A00AC6980298}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanTest", "UnitTestProject1\HumanTest.csproj", "{F4284170-1697-48A7-82F5-C62FF3B99C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopulationTests", "UnitTestProject1\PopulationTests.csproj", "{F4284170-1697-48A7-82F5-C62FF3B99C85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
