@@ -1,6 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Animals;
+using NUnit.Framework;
 
 namespace HumanShould
 {
@@ -14,8 +15,8 @@ namespace HumanShould
         [TestInitialize]
         public void Test_setup()
         {
-    
-          list = Test_Subject();
+
+            list = Test_Subject();
 
         }
 
@@ -28,14 +29,13 @@ namespace HumanShould
         }
 
 
-
         [TestMethod]
         public void Human_should_breathe()
         {
 
             var result = list[0];
             var expected = "brrrrrrr";
-            Assert.AreEqual(expected, result);
+            NUnit.Framework.Assert.AreEqual(expected, result);
 
         }
 
@@ -44,7 +44,7 @@ namespace HumanShould
         {
             var result = list[2];
             var expected = "dim sum";
-            Assert.AreEqual(expected, result);
+            NUnit.Framework.Assert.AreEqual(expected, result);
 
         }
 
@@ -53,16 +53,16 @@ namespace HumanShould
         {
             var result = list[1];
             var expected = "zzzzzz";
-            Assert.AreEqual(expected, result);
+            NUnit.Framework.Assert.AreEqual(expected, result);
 
         }
-
-        [TestMethod]
-        public void Human_should_want_different_foods()
+        
+        [TestCase("starving")]
+        public void Human_should_be_able_to_decide_if_hungry(String hungry)
         {
             var result = list[1];
-            var expected = "zzzzzz";
-            Assert.AreEqual(expected, result);
+            var expected = hungry;
+            NUnit.Framework.Assert.AreEqual(expected, result);
 
         }
 

@@ -6,10 +6,10 @@ namespace Animals
 {
     interface iMammals
     {
-        String Breathe();
-        String Sleep();
+        string Breathe { get; set;}
+        string Sleep { get; set; }
 
-        String Eat();
+        string Eat { get; set; }
         
 
     }

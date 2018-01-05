@@ -1,28 +1,15 @@
 ﻿using System;
+using animals;
 
 namespace Animals
 {
     public class Human : iMammals 
     {
 
-        public string Breathe()
-        {
-            var breath = "brrrrrrr";
-            return breath;
-        }
+       public string Breathe { get; set; }
+       public string Sleep { get; set; }
+       public string Eat { get; set; }
 
-        public string Eat()
-        {
-            var food = "dim sum";
-            return food;
-        }
 
-        public string Sleep()
-        {
-            var snoring = "zzzzzz";
-            return snoring;
-        }
-
-      
     }
 }
