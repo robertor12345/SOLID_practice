@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Animals
 {
-   public  interface iMammals
+   public interface iMammals
     {
         string Breathe { get; set;}
         string Sleep { get; set; }
-
         string Eat { get; set; }
-        
+        bool Hungry { get; set; }
+
 
     }
 }

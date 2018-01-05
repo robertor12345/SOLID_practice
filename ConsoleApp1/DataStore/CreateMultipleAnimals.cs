@@ -15,14 +15,22 @@ namespace Animals.DataStore
         {
             NoahsArk = new List<iMammals>();
             humans = new CreateHumans();
-
             Random rnd = new Random();
             var rand = 0;
 
             for (int i = 0; i < 10; i++)
             {
                 rand = rnd.Next();
-                NoahsArk.Add(humans.CreateAnOccupant(i));
+                switch (rand%2) {
+
+                    case 0:
+                        NoahsArk.Add(humans.CreateAnOccupant(i));
+                        break;
+                    case 1:
+                        NoahsArk.Add(humans.CreateAnOccupant(i));
+                        break;
+                }         
+                
             }
 
             return NoahsArk;
