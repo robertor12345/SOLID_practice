@@ -7126,10 +7126,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\Visual Studio 2017\\Projects\\ConsoleApp1\\ConsoleApp1\\animals.csproj",
+      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\animals.csproj",
       "projectName": "animals",
-      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\Visual Studio 2017\\Projects\\ConsoleApp1\\ConsoleApp1\\animals.csproj",
-      "outputPath": "C:\\Users\\roberto.branco-rhode\\Documents\\Visual Studio 2017\\Projects\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\animals.csproj",
+      "outputPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

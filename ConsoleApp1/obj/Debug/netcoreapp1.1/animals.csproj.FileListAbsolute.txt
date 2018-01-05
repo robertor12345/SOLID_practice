@@ -7,3 +7,12 @@ c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\
 c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.pdb
 c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.dll
 c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.pdb
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.deps.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.runtimeconfig.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.runtimeconfig.dev.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\animals.pdb
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.csprojResolveAssemblyReference.cache
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.AssemblyInfo.cs
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\animals.pdb

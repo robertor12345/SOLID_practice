@@ -4,15 +4,6 @@ namespace Animals
 {
     public class Human : iMammals 
     {
-        static void Main(string[] args)
-        {
-
-            Human rob = new Human();
-            rob.Breathe();
-            rob.Sleep();
-            rob.Eat();
-
-        }
 
         public string Breathe()
         {

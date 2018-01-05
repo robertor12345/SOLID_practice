@@ -12,3 +12,17 @@ c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\
 c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\bin\Debug\netcoreapp1.1\animals.pdb
 c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.dll
 c:\users\roberto.branco-rhode\documents\visual studio 2017\Projects\ConsoleApp1\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.pdb
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.deps.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.runtimeconfig.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.runtimeconfig.dev.json
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\HumanTest.pdb
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\animals.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\bin\Debug\netcoreapp1.1\animals.pdb
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.csprojResolveAssemblyReference.cache
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.AssemblyInfo.cs
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.dll
+C:\Users\roberto.branco-rhode\Documents\solid_project\UnitTestProject1\obj\Debug\netcoreapp1.1\HumanTest.pdb
