@@ -5,7 +5,7 @@ using System.Text;
 
 namespace animals
 {
-    class Class1
+    class ApplicationEntry
     {
 
         static void Main(string[] args)
