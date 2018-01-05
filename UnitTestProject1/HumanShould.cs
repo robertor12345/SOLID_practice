@@ -10,13 +10,12 @@ namespace HumanShould
     {
 
         Human testSubject = new Human();
-        string[] list = new string[5];
+        
 
         [TestInitialize]
         public void Test_setup()
         {
-
-            list = Test_Subject();
+            
 
         }
 
@@ -33,7 +32,7 @@ namespace HumanShould
         public void Human_should_breathe()
         {
 
-            var result = list[0];
+            var result = human
             var expected = "brrrrrrr";
             NUnit.Framework.Assert.AreEqual(expected, result);
 
