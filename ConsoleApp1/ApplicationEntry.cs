@@ -11,10 +11,7 @@ namespace animals
         static void Main(string[] args)
         {
 
-            Human rob = new Human();
-            rob.Breathe();
-            rob.Sleep();
-            rob.Eat();
+         
 
         }
 

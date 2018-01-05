@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Animals
 {
-    interface iMammals
+   public  interface iMammals
     {
         string Breathe { get; set;}
         string Sleep { get; set; }

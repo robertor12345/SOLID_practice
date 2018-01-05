@@ -11,7 +11,7 @@
           "NUnit": "3.9.0"
         },
         "runtime": {
-          "animals.dll": {}
+          "Animals.dll": {}
         }
       },
       "nunit/3.9.0": {

@@ -1,21 +1,30 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Animals;
+
 using NUnit.Framework;
+using Animals.Models;
 
 namespace HumanShould
 {
     [TestClass]
-    public class HumanShould
+    public class HumanShould 
     {
 
-        Human testSubject = new Human();
-        
+        public Human Occupant;
 
-        [TestInitialize]
+
+       [TestInitialize]
         public void Test_setup()
         {
-            
+             Occupant = new Human()
+             {
+                 Name = "test occupant ",
+                 Breathe = "brrrrrrr",
+                 Sleep = "zzzzzz",
+                 Eat = "dim sum",
+                 Hungry = false
+             };
 
         }
 
@@ -23,7 +32,7 @@ namespace HumanShould
         public void Test_teardown()
         {
 
-            list = Test_Subject();
+           
 
         }
 
@@ -32,7 +41,7 @@ namespace HumanShould
         public void Human_should_breathe()
         {
 
-            var result = human
+            var result = Occupant.Breathe;
             var expected = "brrrrrrr";
             NUnit.Framework.Assert.AreEqual(expected, result);
 
@@ -41,7 +50,7 @@ namespace HumanShould
         [TestMethod]
         public void Human_should_eat()
         {
-            var result = list[2];
+            var result = Occupant.Eat;
             var expected = "dim sum";
             NUnit.Framework.Assert.AreEqual(expected, result);
 
@@ -50,7 +59,7 @@ namespace HumanShould
         [TestMethod]
         public void Human_should_sleep()
         {
-            var result = list[1];
+            var result = Occupant.Sleep;
             var expected = "zzzzzz";
             NUnit.Framework.Assert.AreEqual(expected, result);
 
@@ -59,18 +68,12 @@ namespace HumanShould
         [TestCase("starving")]
         public void Human_should_be_able_to_decide_if_hungry(String hungry)
         {
-            var result = list[1];
-            var expected = hungry;
+            var result = Occupant.Hungry;
+            var expected = false;
             NUnit.Framework.Assert.AreEqual(expected, result);
 
         }
 
-        public string[] Test_Subject() {
-            list [0] = testSubject.Breathe();
-            list[1] = testSubject.Sleep();
-            list[2] = testSubject.Eat();
-
-            return list;
-        } 
+        
     }
 }

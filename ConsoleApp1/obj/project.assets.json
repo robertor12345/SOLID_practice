@@ -7126,9 +7126,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\animals.csproj",
-      "projectName": "animals",
-      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\animals.csproj",
+      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\Animals.csproj",
+      "projectName": "Animals",
+      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\Animals.csproj",
       "outputPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
