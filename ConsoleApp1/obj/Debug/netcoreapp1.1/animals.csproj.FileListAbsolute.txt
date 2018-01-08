@@ -19,3 +19,14 @@ C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netc
 C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.dll
 C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.pdb
 C:\Users\roberto.branco-rhode\Documents\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.csprojResolveAssemblyReference.cache
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\NUnit3.TestAdapter.dll
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\nunit.engine.netstandard.dll
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\Mono.Cecil.dll
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\Animals.deps.json
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\Animals.runtimeconfig.json
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\Animals.runtimeconfig.dev.json
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\Animals.dll
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\bin\Debug\netcoreapp1.1\Animals.pdb
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.AssemblyInfo.cs
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.dll
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.pdb

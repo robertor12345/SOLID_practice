@@ -8665,10 +8665,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\PopulationTests.csproj",
+      "projectUniqueName": "C:\\Users\\roberto.branco-rhode\\Documents\\SMART Objectives and Tracking\\solid_project\\UnitTestProject1\\PopulationTests.csproj",
       "projectName": "PopulationTests",
-      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\PopulationTests.csproj",
-      "outputPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\UnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\SMART Objectives and Tracking\\solid_project\\UnitTestProject1\\PopulationTests.csproj",
+      "outputPath": "C:\\Users\\roberto.branco-rhode\\Documents\\SMART Objectives and Tracking\\solid_project\\UnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8676,8 +8676,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\Animals.csproj": {
-              "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\solid_project\\ConsoleApp1\\Animals.csproj"
+            "C:\\Users\\roberto.branco-rhode\\Documents\\SMART Objectives and Tracking\\solid_project\\ConsoleApp1\\Animals.csproj": {
+              "projectPath": "C:\\Users\\roberto.branco-rhode\\Documents\\SMART Objectives and Tracking\\solid_project\\ConsoleApp1\\Animals.csproj"
             }
           }
         }

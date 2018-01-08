@@ -5,31 +5,6 @@ using System.Text;
 
 namespace Animals.DataStore
 {
-    public interface IAnimalGenerator
-    {
-        int Next();
-    }
-
-    public class RandomAnimalGenerator : IAnimalGenerator
-    {
-        private static readonly Random random = new Random();
-
-        public int Next()
-        {
-            return random.Next();
-        }
-    }
-
-    public class AnimalGenerator : IAnimalGenerator
-    {
-        private const int SetSeed = 0;
-
-        public int Next()
-        {
-            var random = new Random(SetSeed);
-            return random.Next();
-        }
-    }
 
     public class CreateMultipleAnimals
     {
