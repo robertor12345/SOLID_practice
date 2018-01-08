@@ -1,45 +1,66 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Animals;
-
 using NUnit.Framework;
 using Animals.Models;
 using Animals.DataStore;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace PopulatorShould
 {
-    [TestClass]
+    [TestFixture]
     public class PopulatorShould
     {
-        private CreateMultipleAnimals population;
-        private List<iMammals> TestPopulation;
-
-        [TestInitialize]
+        [SetUp]
         public void Test_setup()
         {
-           population = new CreateMultipleAnimals();
-           TestPopulation = population.GenerateOccupants();
-
+            
         }
 
+        private List<iMammals> GetMammals()
+        {
+            var generator = new RandomAnimalGenerator();
+            var population = new CreateMultipleAnimals(generator);
+            var testPopulation = population.GenerateOccupants();
 
-        [TestMethod]
+            return testPopulation;
+        }
+
+        [Test]
         public void Population_size_greater_than_0()
         {
-            var result = TestPopulation.Count;
+            var result = GetMammals().Count;
             var expected = 0;
-            NUnit.Framework.Assert.Greater(result, expected);
 
+            Assert.Greater(result, expected);
         }
 
-        [TestMethod]
+        [Test]
         public void Population_should_be_random()
         {
-            var result = TestPopulation;
-            var expected = population.GenerateOccupants();
-            NUnit.Framework.CollectionAssert.AreNotEquivalent(result, expected);
+            var result = GetMammals();
+            var expected = GetMammals();
+            CollectionAssert.AreNotEquivalent(result, expected);
 
+            int numberSame = 0;
+            for (int i = 0; i < result.Count; i++)
+            {
+                if (result[i].GetType() == expected[i].GetType())
+                {
+                    numberSame++;
+                    Trace.WriteLine($"{i} : {result[i].GetType()} , {expected[i].GetType()}");
+                }
+            }
+
+            Assert.AreNotEqual(numberSame, result.Count);
+        }
+
+        [Test]
+        public void Population_should_contain_at_least_one_of_each_type()
+        {
+            var result = GetMammals();
+            //NUnit.Framework.Assert.AreEqual(result.GetType(), typeof(iMammals));
+            //NUnit.Framework.CollectionAssert.Contains(result, );
         }
 
     }
