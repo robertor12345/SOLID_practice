@@ -30,3 +30,4 @@ C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_proj
 C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.AssemblyInfo.cs
 C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.dll
 C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.pdb
+C:\Users\roberto.branco-rhode\Documents\SMART Objectives and Tracking\solid_project\ConsoleApp1\obj\Debug\netcoreapp1.1\Animals.csprojResolveAssemblyReference.cache

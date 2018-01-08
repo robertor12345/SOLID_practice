@@ -11,25 +11,21 @@ namespace PopulatorShould
     [TestFixture]
     public class PopulatorShould
     {
-        [SetUp]
-        public void Test_setup()
-        {
-            
-        }
 
-        private List<iMammals> GetMammals()
+        private List<iMammals> GetMammals(IAnimalGenerator generator)
         {
-            var generator = new RandomAnimalGenerator();
             var population = new CreateMultipleAnimals(generator);
             var testPopulation = population.GenerateOccupants();
 
             return testPopulation;
         }
 
+ 
         [Test]
         public void Population_size_greater_than_0()
         {
-            var result = GetMammals().Count;
+            var generator = new RandomAnimalGenerator();
+            var result = GetMammals(generator).Count;
             var expected = 0;
 
             Assert.Greater(result, expected);
@@ -38,8 +34,9 @@ namespace PopulatorShould
         [Test]
         public void Population_should_be_random()
         {
-            var result = GetMammals();
-            var expected = GetMammals();
+            var generator = new RandomAnimalGenerator();
+            var result = GetMammals(generator);
+            var expected = GetMammals(generator);
             //CollectionAssert.AreNotEquivalent(result, expected);
 
             int numberSame = 0;
@@ -58,7 +55,8 @@ namespace PopulatorShould
         [Test]
         public void Population_should_contain_at_least_one_of_each_type()
         {
-            var result = GetMammals();
+            var generator = new AnimalGenerator();
+            var result = GetMammals(generator);
             //NUnit.Framework.Assert.AreEqual(result.GetType(), typeof(iMammals));
             //NUnit.Framework.CollectionAssert.Contains(result, );
         }
