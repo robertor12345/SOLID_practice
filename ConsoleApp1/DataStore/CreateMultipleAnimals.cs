@@ -12,9 +12,10 @@ namespace Animals.DataStore
 
     public class RandomAnimalGenerator : IAnimalGenerator
     {
+        private static readonly Random random = new Random();
+
         public int Next()
         {
-            var random = new Random(DateTime.UtcNow.Millisecond);
             return random.Next();
         }
     }
@@ -22,7 +23,7 @@ namespace Animals.DataStore
     public class AnimalGenerator : IAnimalGenerator
     {
         private const int SetSeed = 0;
-        
+
         public int Next()
         {
             var random = new Random(SetSeed);
@@ -49,13 +50,12 @@ namespace Animals.DataStore
             NoahsArk = new List<iMammals>();
             humans = new CreateHumans();
             bats = new CreateBats();
-            
-            rand = 0;
 
             for (i = 0; i < 200; i++)
             {
-                rand = generator.Next();
-                switch (rand%2) {
+                var rand = generator.Next();
+                switch (rand % 2)
+                {
 
                     case 0:
                         NoahsArk.Add(humans.CreateAnOccupant(i));
@@ -63,12 +63,11 @@ namespace Animals.DataStore
                     case 1:
                         NoahsArk.Add(bats.CreateAnOccupant(i));
                         break;
-                }         
-                
+                }
+
             }
 
             return NoahsArk;
         }
     }
 }
-
