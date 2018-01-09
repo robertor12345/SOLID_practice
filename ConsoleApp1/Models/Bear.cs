@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Animals.Models
 {
-    class Bear : iBear
+    public class Bear : iBear
     {
         public string Roar { get; set;}
         public string Breathe { get; set;}

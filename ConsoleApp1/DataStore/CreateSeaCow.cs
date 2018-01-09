@@ -5,14 +5,13 @@ using System.Text;
 
 namespace Animals.DataStore
 {
-    class CreateBears : iCreateAnimals
+    class CreateSeaCow : iCreateAnimals
     {
-
         public iMammals CreateAnOccupant(int i)
         {
-            Bear Occupant = new Bear()
+            SeaCow Occupant = new SeaCow()
             {
-                Roar = "Roaaar",
+                Swim = true,
                 Breathe = "brrrrrrr",
                 Sleep = "zzzzzz",
                 Eat = "fish",

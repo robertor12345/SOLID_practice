@@ -37,7 +37,6 @@ namespace PopulatorShould
             var generator = new RandomAnimalGenerator();
             var result = GetMammals(generator);
             var expected = GetMammals(generator);
-            //CollectionAssert.AreNotEquivalent(result, expected);
 
             int numberSame = 0;
             for (int i = 0; i < result.Count; i++)

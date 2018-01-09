@@ -6,6 +6,6 @@ namespace Animals.Models
 {
     interface iSeaCow: iMammals
     {
-        string Swim { get; set; }
+        bool Swim { get; set; }
     }
 }
