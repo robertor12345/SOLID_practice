@@ -14,7 +14,7 @@ namespace PopulatorShould
 
         private List<iMammals> GetMammals(IAnimalGenerator generator)
         {
-            var population = new CreateMultipleAnimals(generator);
+            var population = new CreateMultipleRandomAnimals(generator);
             var testPopulation = population.GenerateOccupants();
 
             return testPopulation;
@@ -59,16 +59,16 @@ namespace PopulatorShould
             var expected = result.Count / 2;
 
             int numberSame = 0;
-            for (int i = 0; i < result.Count; i++)
+            for (int i = 0; i < result.Count-1; i++)
             {
-                if (result[i].GetType() == result[i+1].GetType())
+                if (result[i] === result[i+1])
                 {
                     numberSame++;
                     Trace.WriteLine($"{i} : {result[i].GetType()} , {result[i+1].GetType()}");
                 }
             }
 
-            Assert.AreEqual(numberSame, expected);
+            Assert.AreEqual(expected, numberSame);
 
         }
 

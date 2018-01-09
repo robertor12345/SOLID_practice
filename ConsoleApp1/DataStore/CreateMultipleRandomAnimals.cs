@@ -6,7 +6,7 @@ using System.Text;
 namespace Animals.DataStore
 {
 
-    public class CreateMultipleAnimals
+    public class CreateMultipleRandomAnimals
     {
         private CreateHumans humans;
         private CreateBats bats;
@@ -15,7 +15,7 @@ namespace Animals.DataStore
         private int i;
         private IAnimalGenerator generator;
 
-        public CreateMultipleAnimals(IAnimalGenerator generator)
+        public CreateMultipleRandomAnimals(IAnimalGenerator generator)
         {
             this.generator = generator;
         }
