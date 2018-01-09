@@ -57,8 +57,20 @@ namespace PopulatorShould
         {
             var generator = new AnimalGenerator();
             var result = GetMammals(generator);
-            //NUnit.Framework.Assert.AreEqual(result.GetType(), typeof(iMammals));
-            //NUnit.Framework.CollectionAssert.Contains(result, );
+            var expected = result.Count / 2;
+
+            int numberSame = 0;
+            for (int i = 0; i < result.Count; i++)
+            {
+                if (result[i].GetType() == result[i+1].GetType())
+                {
+                    numberSame++;
+                    Trace.WriteLine($"{i} : {result[i].GetType()} , {result[i+1].GetType()}");
+                }
+            }
+
+            Assert.AreEqual(numberSame, expected);
+
         }
 
     }
