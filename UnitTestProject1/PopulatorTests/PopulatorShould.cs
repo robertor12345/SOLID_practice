@@ -67,7 +67,6 @@ namespace PopulatorShould
 
                 Console.WriteLine("the objetc type is: "+result[i].GetType());
                 if (result[i].GetType() == result[i+1].GetType())
-               // if(result[i].Equals(result[i+1]))
                 {
                     numberSame++;
                     Trace.WriteLine($"{i} : {result[i].GetType()} , {result[i+1].GetType()}");

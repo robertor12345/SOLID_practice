@@ -7,7 +7,7 @@ namespace Animals.DataStore
 {
     class CreateSeaCow : iCreateAnimals
     {
-        public iMammals CreateAnOccupant(int i)
+        public iMammals CreateAnOccupant()
         {
             SeaCow Occupant = new SeaCow()
             {

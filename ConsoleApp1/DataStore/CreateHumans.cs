@@ -9,11 +9,11 @@ namespace Animals.NoahsArk
     class CreateHumans : iCreateAnimals
     {
 
-        public iMammals CreateAnOccupant(int i)
+        public iMammals CreateAnOccupant()
         {
             Human Occupant = new Human()
             {
-                Name = "Ark occupant "+i,
+                Name = "Ark occupant ",
                 Breathe = "brrrrrrr",
                 Sleep = "zzzzzz",
                 Eat = "dim sum",

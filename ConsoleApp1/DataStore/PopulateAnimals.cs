@@ -12,31 +12,30 @@ namespace Animals.DataStore
             private CreateBats bats;
             private CreateBears bear;
             private CreateSeaCow seaCow;
-            public List<iMammals> NoahsArk;
-            private int rand = 0;
-            private int i;
-            private IAnimalGenerator generator;
+            public List<iMammals> noahsArk;
+           
+            
 
             public List<iMammals> GenerateOccupants()
             {
              
-                NoahsArk = new List<iMammals>();
+                noahsArk = new List<iMammals>();
                 humans = new CreateHumans();
                 bats = new CreateBats();
                 bear = new CreateBears();
                 seaCow = new CreateSeaCow();
 
+                noahsArk.Add(humans.CreateAnOccupant());
+                noahsArk.Add(humans.CreateAnOccupant());
+                noahsArk.Add(bear.CreateAnOccupant());
+                noahsArk.Add(bear.CreateAnOccupant());
+                noahsArk.Add(bats.CreateAnOccupant());
+                noahsArk.Add(bats.CreateAnOccupant());
+                noahsArk.Add(seaCow.CreateAnOccupant());
+                noahsArk.Add(seaCow.CreateAnOccupant());
 
-            //Convert.ChangeType(bats.CreateAnOccupant(i), iHuman);
-                NoahsArk.Add(humans.CreateAnOccupant(i));
-                NoahsArk.Add(humans.CreateAnOccupant(i));
-                NoahsArk.Add(bear.CreateAnOccupant(i));
-                NoahsArk.Add(bear.CreateAnOccupant(i));
-                NoahsArk.Add(bats.CreateAnOccupant(i));
-                NoahsArk.Add(bats.CreateAnOccupant(i));
-           
 
-            return NoahsArk;
+            return noahsArk;
             }
         }
     }

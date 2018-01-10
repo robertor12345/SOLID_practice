@@ -7,7 +7,7 @@ namespace Animals.DataStore
 {
     class CreateBats : iCreateAnimals
     {
-        public iMammals CreateAnOccupant(int i)
+        public iMammals CreateAnOccupant()
         {
             Bat Occupant = new Bat()
             {

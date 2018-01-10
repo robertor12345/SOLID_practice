@@ -8,35 +8,34 @@ namespace Animals.DataStore
 
     public class CreateMultipleRandomAnimals : iCreatePopulation
     {
-        private CreateHumans humans;
-        private CreateBats bats;
+        private CreateHumans _humans;
+        private CreateBats _bats;
         public List<iMammals> NoahsArk;
-        private int rand = 0;
         private int i;
-        private IAnimalGenerator generator;
+        private readonly IAnimalGenerator _generator;
 
         public CreateMultipleRandomAnimals(IAnimalGenerator generator)
         {
-            this.generator = generator;
+            this._generator = generator;
         }
 
         public List<iMammals> GenerateOccupants()
         {
             NoahsArk = new List<iMammals>();
-            humans = new CreateHumans();
-            bats = new CreateBats();
+            _humans = new CreateHumans();
+            _bats = new CreateBats();
 
             for (i = 0; i < 200; i++)
             {
-                var rand = generator.Next();
+                var rand = _generator.Next();
                 switch (rand % 2)
                 {
 
                     case 0:
-                        NoahsArk.Add(humans.CreateAnOccupant(i));
+                        NoahsArk.Add(_humans.CreateAnOccupant());
                         break;
                     case 1:
-                        NoahsArk.Add(bats.CreateAnOccupant(i));
+                        NoahsArk.Add(_bats.CreateAnOccupant());
                         break;
                 }
 

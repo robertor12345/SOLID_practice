@@ -8,7 +8,7 @@ namespace Animals.DataStore
     class CreateBears : iCreateAnimals
     {
 
-        public iMammals CreateAnOccupant(int i)
+        public iMammals CreateAnOccupant()
         {
             Bear Occupant = new Bear()
             {
