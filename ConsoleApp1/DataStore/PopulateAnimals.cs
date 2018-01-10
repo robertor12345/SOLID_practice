@@ -8,10 +8,10 @@ namespace Animals.DataStore
 {
    public class PopulateAnimals : iCreatePopulation
     {
-            private CreateHumans humans;
-            private CreateBats bats;
-            private CreateBears bear;
-            private CreateSeaCow seaCow;
+            private CreateHumans _humans;
+            private CreateBats _bats;
+            private CreateBears _bear;
+            private CreateSeaCow _seaCow;
             public List<iMammals> noahsArk;
            
             
@@ -20,19 +20,19 @@ namespace Animals.DataStore
             {
              
                 noahsArk = new List<iMammals>();
-                humans = new CreateHumans();
-                bats = new CreateBats();
-                bear = new CreateBears();
-                seaCow = new CreateSeaCow();
+                _humans = new CreateHumans();
+                _bats = new CreateBats();
+                _bear = new CreateBears();
+                _seaCow = new CreateSeaCow();
 
-                noahsArk.Add(humans.CreateAnOccupant());
-                noahsArk.Add(humans.CreateAnOccupant());
-                noahsArk.Add(bear.CreateAnOccupant());
-                noahsArk.Add(bear.CreateAnOccupant());
-                noahsArk.Add(bats.CreateAnOccupant());
-                noahsArk.Add(bats.CreateAnOccupant());
-                noahsArk.Add(seaCow.CreateAnOccupant());
-                noahsArk.Add(seaCow.CreateAnOccupant());
+                noahsArk.Add(_humans.CreateAnOccupant());
+                noahsArk.Add(_humans.CreateAnOccupant());
+                noahsArk.Add(_bear.CreateAnOccupant());
+                noahsArk.Add(_bear.CreateAnOccupant());
+                noahsArk.Add(_bats.CreateAnOccupant());
+                noahsArk.Add(_bats.CreateAnOccupant());
+                noahsArk.Add(_seaCow.CreateAnOccupant());
+                noahsArk.Add(_seaCow.CreateAnOccupant());
 
 
             return noahsArk;

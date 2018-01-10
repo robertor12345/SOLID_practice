@@ -10,7 +10,7 @@ namespace Animals.DataStore
 
         public iMammals CreateAnOccupant()
         {
-            Bear Occupant = new Bear()
+            Bear occupant = new Bear()
             {
                 Roar = "Roaaar",
                 Breathe = "brrrrrrr",
@@ -19,7 +19,7 @@ namespace Animals.DataStore
                 Hungry = false
             };
 
-            return Occupant;
+            return occupant;
         }
     }
 }

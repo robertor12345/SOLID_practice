@@ -11,7 +11,7 @@ namespace Animals.NoahsArk
 
         public iMammals CreateAnOccupant()
         {
-            Human Occupant = new Human()
+            Human occupant = new Human()
             {
                 Name = "Ark occupant ",
                 Breathe = "brrrrrrr",
@@ -20,7 +20,7 @@ namespace Animals.NoahsArk
                 Hungry = false
             };
 
-            return Occupant;
+            return occupant;
         }
          
     }

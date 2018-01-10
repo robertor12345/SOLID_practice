@@ -6,11 +6,11 @@ namespace Animals.DataStore
 {
     public class RandomAnimalGenerator : IAnimalGenerator
     {
-        private static readonly Random random = new Random();
+        private static readonly Random Random = new Random();
 
         public int Next()
         {
-            return random.Next();
+            return Random.Next();
         }
     }
 }

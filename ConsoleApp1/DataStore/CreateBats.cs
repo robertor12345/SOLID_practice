@@ -9,7 +9,7 @@ namespace Animals.DataStore
     {
         public iMammals CreateAnOccupant()
         {
-            Bat Occupant = new Bat()
+            Bat occupant = new Bat()
             {
                 Fly = false,
                 Breathe = "brrrrrrr",
@@ -18,7 +18,7 @@ namespace Animals.DataStore
                 Hungry = false
             };
 
-            return Occupant;
+            return occupant;
         }
     }
 }
