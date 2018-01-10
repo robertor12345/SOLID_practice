@@ -40,8 +40,8 @@ namespace PopulatorShould
             var result = GetMammals(generator, population);
             var expected = GetMammals(generator, population);
 
-            int numberSame = 0;
-            for (int i = 0; i < result.Count; i++)
+            var numberSame = 0;
+            for (var i = 0; i < result.Count; i++)
             {
                 if (result[i].GetType() == expected[i].GetType())
                 {
@@ -61,8 +61,8 @@ namespace PopulatorShould
             var result = GetMammals(generator, population);
             var expected = result.Count / 2;
 
-            int numberSame = 0;
-            for (int i = 0; i < result.Count-1; i++)
+            var numberSame = 0;
+            for (var i = 0; i < result.Count-1; i++)
             {
 
                 Console.WriteLine("the objetc type is: "+result[i].GetType());
