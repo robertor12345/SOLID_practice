@@ -37,6 +37,9 @@ namespace Animals.DataStore
                     case 1:
                         NoahsArk.Add(_bats.CreateAnOccupant());
                         break;
+                    default:
+                        NoahsArk.Add(_bats.CreateAnOccupant());
+                        break;
                 }
 
             }
