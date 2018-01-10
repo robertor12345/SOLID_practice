@@ -12,9 +12,8 @@ namespace PopulatorShould
     public class PopulatorShould
     {
 
-        private List<iMammals> GetMammals(IAnimalGenerator generator)
+        private List<iMammals> GetMammals(IAnimalGenerator generator, iCreatePopulation population)
         {
-            var population = new CreateMultipleRandomAnimals(generator);
             var testPopulation = population.GenerateOccupants();
 
             return testPopulation;
@@ -24,8 +23,10 @@ namespace PopulatorShould
         [Test]
         public void Population_size_greater_than_0()
         {
+            
             var generator = new RandomAnimalGenerator();
-            var result = GetMammals(generator).Count;
+            var population = new CreateMultipleRandomAnimals(generator);
+            var result = GetMammals(generator, population).Count;
             var expected = 0;
 
             Assert.Greater(result, expected);
@@ -35,8 +36,9 @@ namespace PopulatorShould
         public void Population_should_be_random()
         {
             var generator = new RandomAnimalGenerator();
-            var result = GetMammals(generator);
-            var expected = GetMammals(generator);
+            var population = new CreateMultipleRandomAnimals(generator);
+            var result = GetMammals(generator, population);
+            var expected = GetMammals(generator, population);
 
             int numberSame = 0;
             for (int i = 0; i < result.Count; i++)
@@ -55,13 +57,17 @@ namespace PopulatorShould
         public void Population_should_contain_at_least_one_of_each_type()
         {
             var generator = new AnimalGenerator();
-            var result = GetMammals(generator);
+            var population = new PopulateAnimals();
+            var result = GetMammals(generator, population);
             var expected = result.Count / 2;
 
             int numberSame = 0;
             for (int i = 0; i < result.Count-1; i++)
             {
-                if (result[i] === result[i+1])
+
+                Console.WriteLine("the objetc type is: "+result[i].GetType());
+                if (result[i].GetType() == result[i+1].GetType())
+               // if(result[i].Equals(result[i+1]))
                 {
                     numberSame++;
                     Trace.WriteLine($"{i} : {result[i].GetType()} , {result[i+1].GetType()}");

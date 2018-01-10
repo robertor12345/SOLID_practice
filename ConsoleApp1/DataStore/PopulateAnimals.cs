@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Animals.DataStore
 {
-   public class PopulateAnimals
+   public class PopulateAnimals : iCreatePopulation
     {
             private CreateHumans humans;
             private CreateBats bats;
@@ -16,11 +16,6 @@ namespace Animals.DataStore
             private int rand = 0;
             private int i;
             private IAnimalGenerator generator;
-
-            public PopulateAnimals(IAnimalGenerator generator)
-            {
-                this.generator = generator;
-            }
 
             public List<iMammals> GenerateOccupants()
             {
