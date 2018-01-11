@@ -6,7 +6,7 @@ namespace Animals.DataStore
 {
     public interface iCreateAnimals
     {
-        iMammals CreateAnOccupant();
+       iMammals CreateAnOccupant();
 
     }
 }

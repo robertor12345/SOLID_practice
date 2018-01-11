@@ -4,12 +4,12 @@ using System.Text;
 using Animals.Models;
 using Animals.DataStore;
 
-namespace Animals.NoahsArk
+namespace Animals.DataStore
 {
-    class CreateHumans : iCreateAnimals
+    public class CreateHumans : iCreateAnimals
     {
 
-        public iMammals CreateAnOccupant()
+        public  iMammals CreateAnOccupant()
         {
             Human occupant = new Human()
             {

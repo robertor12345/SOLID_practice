@@ -1,9 +1,7 @@
-using System;
-
-using Animals;
 
 using NUnit.Framework;
 using Animals.Models;
+using Animals.DataStore;
 
 namespace HumanShould
 {
@@ -12,6 +10,7 @@ namespace HumanShould
     {
 
         public Human Occupant;
+        public Human OccupantTwo;
 
 
        [SetUp]
@@ -25,6 +24,15 @@ namespace HumanShould
                  Eat = "dim sum",
                  Hungry = false
              };
+
+            OccupantTwo = new Human()
+            {
+                Name = "test occupant ",
+                Breathe = "brrrrrrr",
+                Sleep = "zzzzzz",
+                Eat = "dim sum",
+                Hungry = false
+            };
 
         }
 
@@ -76,8 +84,9 @@ namespace HumanShould
         [Test]
         public void Human_Name_attribute_should_be_random()
         {
-            var result = Occupant.Name;
-            var expected = false;
+            var resultHuman = new CreateHumans().CreateAnOccupant();
+            var result = resultHuman.Name();
+            var expected = Occupant.Name;
             Assert.AreEqual(expected, result);
 
         }
