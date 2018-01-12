@@ -1,38 +1,28 @@
 
+using Animals;
 using NUnit.Framework;
 using Animals.Models;
 using Animals.DataStore;
 
-namespace HumanShould
+namespace PopulationTests.AnimalTests
 {
     [TestFixture]
-    public class HumanShould 
+    public class HumanShould
     {
+        private AnimalFactory _factory;
+        private iHuman _occupant;
 
-        public Human Occupant;
-        public Human OccupantTwo;
 
-
-       [SetUp]
+        [SetUp]
         public void Test_setup()
         {
-             Occupant = new Human()
-             {
-                 Name = "test occupant ",
-                 Breathe = "brrrrrrr",
-                 Sleep = "zzzzzz",
-                 Eat = "dim sum",
-                 Hungry = false
-             };
-
-            OccupantTwo = new Human()
-            {
-                Name = "test occupant ",
-                Breathe = "brrrrrrr",
-                Sleep = "zzzzzz",
-                Eat = "dim sum",
-                Hungry = false
-            };
+            _factory = new AnimalFactory();
+            _occupant = _factory.Create<Human>();
+            _occupant.Name = "Ark occupant ";
+            _occupant.Breathe = "brrrrrrr";
+            _occupant.Sleep = "zzzzzz";
+            _occupant.Eat = "dim sum";
+            _occupant.Hungry = false;
 
         }
 
@@ -48,7 +38,9 @@ namespace HumanShould
         [Test]
         public void Human_should_breathe()
         {
-            var result = Occupant.Breathe;
+            
+            
+            var result = _occupant.Breathe;
             var expected = "brrrrrrr";
             Assert.AreEqual(expected, result);
 
@@ -57,7 +49,7 @@ namespace HumanShould
         [Test]
         public void Human_should_eat()
         {
-            var result = Occupant.Eat;
+            var result = _occupant.Eat;
             var expected = "dim sum";
             Assert.AreEqual(expected, result);
 
@@ -66,7 +58,7 @@ namespace HumanShould
         [Test]
         public void Human_should_sleep()
         {
-            var result = Occupant.Sleep;
+            var result = _occupant.Sleep;
             var expected = "zzzzzz";
             Assert.AreEqual(expected, result);
 
@@ -75,7 +67,7 @@ namespace HumanShould
         [Test]
         public void Human_should_be_able_to_decide_if_hungry()
         {
-            var result = Occupant.Hungry;
+            var result = _occupant.Hungry;
             var expected = false;
             Assert.AreEqual(expected, result);
 
@@ -84,10 +76,12 @@ namespace HumanShould
         [Test]
         public void Human_Name_attribute_should_be_random()
         {
-            var resultHuman = new CreateHumans().CreateAnOccupant();
-            var result = resultHuman.Name();
-            var expected = Occupant.Name;
-            Assert.AreEqual(expected, result);
+
+            var expectedHuman=_factory.Create<Human>();
+            var resultHuman = _occupant;
+            var result = resultHuman.Name;
+            var expected = expectedHuman.Name;
+            Assert.AreNotEqual(expected, result);
 
         }
 

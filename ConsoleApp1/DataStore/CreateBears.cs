@@ -21,5 +21,14 @@ namespace Animals.DataStore
 
             return occupant;
         }
+
+        public void DoSomething()
+        {
+            var factory = new AnimalFactory();
+
+            var bear = factory.Create<Bear>();
+
+           
+        }
     }
 }

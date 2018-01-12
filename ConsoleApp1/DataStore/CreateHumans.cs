@@ -22,6 +22,6 @@ namespace Animals.DataStore
 
             return occupant;
         }
-         
+
     }
 }
